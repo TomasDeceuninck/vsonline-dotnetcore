@@ -7,8 +7,5 @@
     // Set remote color for Peacock
     "settings": {
         "peacock.remoteColor": "#0078D7"
-    },
-    "customContainers": true,
-    // Use the dockerfile in .devcontainer directory
-    "dockerfile": "Dockerfile"
+    }
 }
