@@ -2,9 +2,9 @@
     "name": "VS Online DotNetCore Environment",
     // Install Peacock extensions
     "extensions": [
-        "ms-vscode.powershell",
-        "ms-vscode.csharp",
-        "yzhang.markdown-all-in-one",
+        // "ms-vscode.powershell",
+        // "ms-vscode.csharp",
+        // "yzhang.markdown-all-in-one",
         "redhat.vscode-yaml"
     ],
     "settings": {
