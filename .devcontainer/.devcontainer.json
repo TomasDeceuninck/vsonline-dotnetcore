@@ -3,7 +3,7 @@
     // Install Peacock extensions
     "extensions": [
         // "ms-vscode.powershell",
-        // "ms-vscode.csharp",
+        "ms-vscode.csharp"
         // "yzhang.markdown-all-in-one",
         //"redhat.vscode-yaml"
     ],
