@@ -1,0 +1,13 @@
+{
+    "name": "VS Online DotNetCore Environment",
+    // Install Peacock extensions
+    "extensions": [
+        "johnpapa.vscode-peacock"
+    ],
+    // Set remote color for Peacock
+    "settings": {
+        "peacock.remoteColor": "#0078D7"
+    },
+    // Use the dockerfile in .devcontainer directory
+    "dockerfile": "Dockerfile"
+}
