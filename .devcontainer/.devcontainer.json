@@ -2,10 +2,12 @@
     "name": "VS Online DotNetCore Environment",
     // Install Peacock extensions
     "extensions": [
-        "johnpapa.vscode-peacock"
+        "ms-vscode.powershell",
+        "ms-vscode.csharp",
+        "yzhang.markdown-all-in-one",
+        "redhat.vscode-yaml"
     ],
-    // Set remote color for Peacock
     "settings": {
-        "peacock.remoteColor": "#0078D7"
-    }
+    },
+    "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log"
 }
