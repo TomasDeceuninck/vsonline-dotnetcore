@@ -8,7 +8,7 @@
     "settings": {
     },
     // "postCreateCommand": "echo Hello VS Online",
-    // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+    "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
     "customContainers": true,
-    "image": "mcr.microsoft.com/dotnet/core/sdk:3.0"
+    "dockerfile": "dockerfile"
 }
